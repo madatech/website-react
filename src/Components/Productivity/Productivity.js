@@ -36,7 +36,7 @@ function Productivity() {
                     We Improve It!
                 </div>
                         <div class="image">
-                            <img src="/img/NavLogo.jpg" />
+                            <img src="/img/NavLogo.jpg" alt='madatech brand icon' />
                         </div>
                     </div>
                 </div>

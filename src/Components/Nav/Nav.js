@@ -1,23 +1,19 @@
-import { faBars, faCloud, faHamburger, faHeart, faHome, faPuzzlePiece, faRetweet, faThList } from '@fortawesome/free-solid-svg-icons';
+import { faCloud, faHeart, faHome, faPuzzlePiece, faRetweet, faThList } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Hamburger from 'hamburger-react';
-import React, { Component, Fragment, useState } from 'react';
+import React, { Fragment, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Nav.css';
 
 function Nav() {
     const [isOpen, setOpen] = useState(false);
 
-    function setToggleMode() {
-        debugger;
-        setOpen(!isOpen);
-    }
     return (
         <Fragment>
             <div className="Nav">
                 <div className="top-row">
                     <div className="brand">
-                        <img src="/img/NavLogo.jpg" className="logo" />
+                        <img src="/img/NavLogo.jpg" alt='madatech brand icon' className="logo" />
                         <span className="brandname">Madatech</span>
                     </div>
                     <div className='toggler'>

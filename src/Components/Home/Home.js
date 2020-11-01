@@ -5,7 +5,7 @@ function Home() {
     return (
         <Fragment>
             <div class="home-greeting">
-                <img class="home-logo" src="/img/LogoWhite.png" />
+                <img class="home-logo" src="/img/LogoWhite.png" alt='madatech brand icon' />
 
                 <p class="home-slogan">Improving Environment, Improves Productivity!</p>
 

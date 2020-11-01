@@ -5,7 +5,7 @@ function AutomationItem(props) {
     return (
         <Fragment>
             <div class="automation-item">
-                <img src={props.ImgUrl} />
+                <img src={props.ImgUrl} alt='automation tool icon' />
                 <h4>{props.Title}</h4>
             </div>
         </Fragment>

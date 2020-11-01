@@ -16,11 +16,11 @@ function Cloud() {
                         pay only for cloud services you use, helping lower your operating costs,
                         run your infrastructure more efficiently and scale as your business needs change.
             </p>
-                    <img src="img/cloud.jpg" />
+                    <img src="img/cloud.jpg" alt='clout technologies' />
                 </div>
                 <h3>Uses of cloud computing</h3>
                 <div class="benefits">
-                    <img src="img/cloud.png" />
+                    <img src="img/cloud.png" alt='cloud implementation' />
                     <div class="panel">
                         <p>
                             You are probably using cloud computing right now, even if you don’t realise it.
