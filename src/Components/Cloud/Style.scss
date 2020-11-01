@@ -1,0 +1,79 @@
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.7rem;
+    margin: 0 20px;
+}
+
+.cloud-computing {
+    img {
+        margin: 20px 10px;
+    }
+
+    .block-right {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+        p {
+            width: 80%;
+            font-size: 1.5rem;
+        }
+
+        img {
+            width: 50%;
+            border-radius: 50%;
+        }
+    }
+
+    .benefits {
+        font-size: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 50%;
+        }
+
+        .panel {
+            width: 80%;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .cloud-computing {
+        .block-right {
+            p {
+                width: 80%;
+                font-size: 1rem;
+            }
+
+            img {
+                width: 80%;
+                border-radius: 50%;
+            }
+        }
+
+        .benefits {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                width: 80%;
+            }
+
+            .panel {
+                width: 80%;
+                font-size: 1rem;
+            }
+        }
+    }
+}

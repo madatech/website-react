@@ -1,0 +1,91 @@
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.7rem;
+  margin: 0 20px;
+}
+
+.cloud-computing img {
+  margin: 20px 10px;
+}
+
+.cloud-computing .block-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cloud-computing .block-right p {
+  width: 80%;
+  font-size: 1.5rem;
+}
+
+.cloud-computing .block-right img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.cloud-computing .benefits {
+  font-size: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cloud-computing .benefits img {
+  width: 50%;
+}
+
+.cloud-computing .benefits .panel {
+  width: 80%;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .cloud-computing .block-right p {
+    width: 80%;
+    font-size: 1rem;
+  }
+  .cloud-computing .block-right img {
+    width: 80%;
+    border-radius: 50%;
+  }
+  .cloud-computing .benefits {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cloud-computing .benefits img {
+    width: 80%;
+  }
+  .cloud-computing .benefits .panel {
+    width: 80%;
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=Style.css.map */

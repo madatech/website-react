@@ -1,0 +1,38 @@
+.home-greeting {
+    text-align: center;
+    width: 80vw;
+    margin: 20px 0;
+    margin-left: 20px;
+
+    .home-logo {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        margin: 20px 20px;
+    }
+
+    .home-slogan {
+        font-size: 2rem;
+        color: #4473c5;
+        font-style: italic;
+    }
+
+    .btn-link {
+        font-size: 24px;
+        height: 45px;
+        width: 180px;
+        color: #0366d6 !important;
+        border: 1px #0366d6 solid;
+        border-radius: 5px;
+        padding: 5px 5px;
+        margin: 20px 20px;
+        text-align: center;
+    }
+
+    a {
+        text-emphasis: none;
+        text-decoration: none;
+    }
+}

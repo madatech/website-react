@@ -1,0 +1,61 @@
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.productivity-panel {
+  font-size: 1.4rem;
+  margin: 0 50px;
+}
+
+.productivity-panel .mission {
+  text-align: center;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.productivity-panel .mission .slogan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productivity-panel .mission .slogan .text {
+  font-size: 2rem;
+  width: 40%;
+  color: cornflowerblue;
+}
+
+.productivity-panel .mission .slogan .image {
+  width: 15%;
+}
+
+.productivity-panel .mission .slogan .image img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .productivity-panel {
+    font-size: 1rem;
+    margin: 0 20px;
+  }
+  .productivity-panel .mission .slogan .text {
+    font-size: 1rem;
+    width: 70%;
+    color: cornflowerblue;
+  }
+  .productivity-panel .mission .slogan .image {
+    width: 30%;
+  }
+}
+/*# sourceMappingURL=Style.css.map */

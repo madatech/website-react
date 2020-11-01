@@ -1,0 +1,67 @@
+{
+  "products" : [
+    {
+      "Title": "Microsoft 365",
+      "Brand": "Microsoft",
+      "ImgUrl": "/img/microsoft365.png"
+    },
+    {
+      "Title": "Dynamics 365",
+      "Brand": "Microsoft",
+      "ImgUrl": "/img/dynamics365.png"
+    },
+    {
+      "Title": "Microsoft Azure",
+      "Brand": "Microsoft",
+      "ImgUrl": "/img/azure.png"
+    },
+    {
+      "Title": "Windows 10",
+      "Brand": "Microsoft",
+      "ImgUrl": "/img/windows.png"
+    },
+    {
+      "Title": "Windows Server",
+      "Brand": "Microsoft",
+      "ImgUrl": "/img/winserver.png"
+    },
+    {
+      "Title": "Microsoft SQL Server",
+      "Brand": "Microsoft",
+      "ImgUrl": "/img/sqlserver.png"
+    },
+    {
+      "Title": "Dell Computers",
+      "Brand": "Dell",
+      "ImgUrl": "/img/dell.png"
+    },
+    {
+      "Title": "Cordy (cooming soon)",
+      "Brand": "Madatech",
+      "ImgUrl": "/img/cordy.png"
+    },
+    {
+      "Title": "E-School Management",
+      "Brand": "Madatech",
+      "ImgUrl": "/img/e-school.png"
+    }
+  ],
+  "services": [
+    {
+      "Title": "Developing Software",
+      "ImgUrl": "/img/devservice.png"
+    },
+    {
+      "Title": "Supporting Cloud Environement",
+      "ImgUrl": "/img/cloudsupservice.png"
+    },
+    {
+      "Title": "Supporting Computer Network",
+      "ImgUrl": "/img/compsupservice.png"
+    },
+    {
+      "Title": "Training Programs",
+      "ImgUrl": "/img/trainservice.png"
+    }
+  ]
+}
