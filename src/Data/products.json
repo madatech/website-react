@@ -1,5 +1,5 @@
 {
-  "products" : [
+  "products": [
     {
       "Title": "Microsoft 365",
       "Brand": "Microsoft",
@@ -49,19 +49,19 @@
   "services": [
     {
       "Title": "Developing Software",
-      "ImgUrl": "/img/devservice.png"
+      "ImgUrl": "/img/devservices.jpg"
     },
     {
       "Title": "Supporting Cloud Environement",
-      "ImgUrl": "/img/cloudsupservice.png"
+      "ImgUrl": "/img/supportcloud.jpg"
     },
     {
       "Title": "Supporting Computer Network",
-      "ImgUrl": "/img/compsupservice.png"
+      "ImgUrl": "/img/computersupport.jpg"
     },
     {
       "Title": "Training Programs",
-      "ImgUrl": "/img/trainservice.png"
+      "ImgUrl": "/img/trainingservices.jpg"
     }
   ]
 }
