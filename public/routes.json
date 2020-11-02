@@ -1,0 +1,32 @@
+{
+    "routes": [
+        {
+            "route": "/",
+            "serve": "/"
+        },
+        {
+            "route": "/cloud",
+            "serve": "/cloud"
+        },
+        {
+            "route": "/automation",
+            "serve": "/automation"
+        },
+        {
+            "route": "/home",
+            "serve": "/"
+        },
+        {
+            "route": "/productivity",
+            "serve": "/productivity"
+        },
+        {
+            "route": "/products",
+            "serve": "/products"
+        },
+        {
+            "route": "/services",
+            "serve": "/services"
+        }
+    ]
+}
